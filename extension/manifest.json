@@ -1,0 +1,12 @@
+{
+  "manifest_version": 3,
+  "name": "Page Mind",
+  "version": "1.0",
+  "description": "AI Summarizer & Chat for any web page",
+  "permissions": ["activeTab", "scripting"],
+  "host_permissions": ["http://localhost:8000/*"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Page Mind"
+  }
+}
