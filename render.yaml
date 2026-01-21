@@ -14,4 +14,4 @@ services:
         sync: false
       - key: PINECONE_INDEX_NAME
         value: page-mind
-    root: backend
+    rootDir: backend

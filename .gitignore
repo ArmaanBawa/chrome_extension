@@ -17,6 +17,5 @@ backend/.env
 # Node artifacts (if any)
 node_modules/
 
-# Trae/IDE artifacts
-.trae/
+
 
