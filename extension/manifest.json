@@ -4,9 +4,19 @@
   "version": "1.0",
   "description": "AI Summarizer & Chat for any web page",
   "permissions": ["activeTab", "scripting"],
-  "host_permissions": ["http://localhost:8000/*"],
+  "host_permissions": ["https://page-mind-backend.onrender.com/*"],
   "action": {
     "default_popup": "popup.html",
-    "default_title": "Page Mind"
+    "default_title": "Page Mind",
+    "default_icon": {
+      "16": "icons/icon16.png",
+      "48": "icons/icon48.png",
+      "128": "icons/icon128.png"
+    }
+  },
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
   }
 }

@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', function() {
-    const backendUrl = 'http://localhost:8000';
+    const backendUrl = 'https://page-mind-backend.onrender.com';
     let currentUrl = '';
 
     // UI Elements
